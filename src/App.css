@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+input[type=text] {
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  min-width: 200px;
+}
+input[type=text]:focus {
+  border: 1px solid blue;
+}
+
+.red {
+  color: red;
+}
+.bold {
+  font-weight: bold;
+}
