@@ -19,7 +19,7 @@ const cockpit = (props) => {
 
     return (
         <div className={classes.Cockpit}>
-            <h1>Hi Forkers!</h1>
+            <h1>{props.title}</h1>
             <p className={classesArr.join(' ')}>This is really working!</p>
             <button className={btnClass} onClick={props.clicked}>Toggler Persons</button>
         </div>
